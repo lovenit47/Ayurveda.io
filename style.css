@@ -1,0 +1,615 @@
+ @font-face {
+    font-family: popinss;
+    src: url(Poppins/Poppins-Medium.ttf);
+ }
+ body{
+    /* background-color: hsl(0, 0%, 60%); */
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: popinss;
+    /* background-image: linear-gradient(to left, rgb(247, 179, 179), rgb(202, 43, 69)); */
+    /* background-image: radial-gradient(rgb(0, 242, 250), rgb(10, 58, 161)); */
+    /* background-image: radial-gradient(circle, rgb(238, 149, 149), rgb(233, 53, 30), #ec1414); */
+
+    
+
+}
+
+/* Navigation design */
+
+.header{
+        background-color: #fff;
+        position: relative;   
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    /* align-content: center; */
+    padding: 10px 20px;
+
+}
+.log img {
+    max-height: 60px;
+    /* max-width: 40px; */
+}
+
+.nav-links{
+    /* border: 2px solid red; */
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-links li {
+
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.nav-links a:hover {
+    color: #ff6600; /* Change color on hover */
+}
+
+/* .menu{
+    list-style: none;
+    padding: 10px 20px;
+    color: #fff ;
+} */
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+} 
+
+@media screen  and (max-width: 738px){
+
+    .nav-container{
+        flex-direction: column;
+        justify-content: left;
+        
+        
+    }
+
+}
+@media screen and (max-width: 633px ){
+
+    .nav-links{
+        flex-direction: column;
+        /* justify-content: start; */
+        /* border: 1px solid red;   */
+        padding: 1px 1px;
+    
+    }
+    .nav-container{
+        /* justify-content: flex-start; */
+        /* justify-items: left; */
+        justify-content: left;
+        /* justify-self: left; */
+        /* border : 1px solid blue; */
+        align-items: flex-start;
+        /* padding: 0px 0px ; */
+    }
+    .nav-links li {
+
+        /* margin-right: 0px;
+        margin-left: 0px ; */
+        font-size: 1rem;
+        
+        /* border : 1px solid rgb(229, 255, 0); */
+    }
+    .log{
+        /* border: 1px solid white; */
+    }
+   
+}
+
+marquee {
+    font-size: 1rem;
+    /* margin-top: px; */
+    background-color: #cc5302;
+    color: #fff;
+    /* width="100%" ; */
+    direction :"left" ;
+    /* height="100px */
+}
+
+
+
+
+
+
+
+
+
+
+.left-banner  h1{
+    text-align: center;
+    border : 2px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 5px;
+    max-width: 20%;
+    font-size: 1rem;
+    display: flex;
+    padding: 5px 10px ;
+} 
+
+.form-box{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 25vw;
+    /* border: 2px solid #000; */
+    border-radius: 5px;
+    font-size: 0.8rem;
+    background-color: #ffff;
+    box-shadow: 2.5px 2.5px 5px 5px rgba(0, 0, 0, 0.801);
+    
+    padding: 10px;
+    
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin : 3vh;
+    padding: 10px;
+}
+
+
+.input-animation{
+
+border : 1px solid gray ;
+border-radius: 5px;
+height: 5vh;
+width: 20vw;
+transition: width 0.5s;
+
+}
+
+
+.input-animation:hover{
+    width: 25vw;
+    
+}
+
+.submit-button{
+    width: 5vw;
+    margin: 10px ;
+    padding: 10px;
+    align-self: center;
+}
+.reset-button{
+    width: 5vw;
+    margin: 10px ;
+    padding: 10px;
+    align-self: center;
+}
+
+.for-gap{
+    margin-top: 10px;
+}
+
+.s-btn{
+    width: 100px;
+    height: 100px;
+    /* border-radius: 20px; */
+    background-color: aqua;
+}
+
+/* banner desgin start */
+
+
+.banner{
+    /* width: 100vw; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /* overflow: hidden; */
+    
+}
+.banner video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    /* overflow: hidden; */
+    position: absolute;
+    
+    
+}
+.banner-content{
+    position: relative;
+    /* justify-content: center; */
+    
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 10px; */
+    
+    /* height: 100%; */
+    /* width: 100%; */
+    background-color: rgba(0, 0, 0, 0.233);
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    font-size: 1rem;
+    /* text-align: center; */
+
+}
+
+.banner-first-contener{
+    display: flex;
+    /* width: 100%; */
+    margin: 0% 10%;
+    /* margin-top: %; */
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.left-banner{
+    text-align: center;
+}
+.left-banner h2{
+    font-size: 2rem;
+}
+.left-banner h1{
+    background: none;
+    font-size: 3rem;
+    border: none;
+    
+    
+}
+
+.right-banner{
+    
+    
+    padding: 10px;
+    text-align: center;
+    
+}
+/* .right-banner:hover{
+    border-left: 2px solid rgba(27, 124, 27, 0.938);
+    border-radius: 5px;
+} */
+
+.mean{
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 5%;
+    
+}
+
+.banner-bottom{
+    margin: 0% 10% 0% 10%;
+    background-color: rgba(0, 0, 0, 0.329);
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    
+}
+/* .banner-bottom:hover{
+    border-top: 2px solid rgba(27, 124, 27, 0.938);
+    border-radius: 5px;
+} */
+
+/* knowledge section start */
+
+.k1{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    background-image: url(/top-left.png);
+    /* background-image: url(/bottum-right.png); */
+    background-position: top left;    
+    background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 20% 40%;
+    
+}
+/* .k1 img {
+    width: 100%;
+} */
+
+.meaning-section{
+    margin: 0% 10% 0% 10%;
+    padding-top: 10%;
+    font-size: 1rem;
+}
+
+.section-top-header{
+    background-color: #fff;
+
+}
+.section-header{
+    /* width: 100vw; */
+    text-align: center;
+    background-color: rgb(247, 36, 183);
+    padding: 0.5%;
+    color: #fff;
+}
+
+.section-header-child{
+    background-color: #fff;
+    display: flex;
+    font-size: 1rem;
+    margin: 0% 10% 0% 10%;
+    
+}
+.section-top-header h1{
+    font-weight: lighter;
+    
+    
+}
+.section-header-child img{
+    width: 35%;
+    height: auto;
+}
+.section-header-child p{
+    padding-top: 2%;
+
+}
+
+.element5{
+    text-align: center;
+    /* background-color: #fff; */
+    display: flex;
+    flex-flow: column;
+    background-color: #fff;
+    width: 100%;
+    /* height: 100%; */
+    
+
+}
+.element5 h1{
+
+    font-weight: lighter;
+
+}
+.element5-heading{
+    background-color: rgb(108, 141, 108);
+    color: #fff;
+    /* font-weight: lighter; */
+
+}
+
+.element5-content{
+    margin: 0% 10% 0% 10%;
+    text-align: left;
+}
+.element5-content img {
+    width:80%;
+    max-height: 200px;
+    margin: 4%;
+
+}
+.doshas-contener{
+    background-color: #fff;
+    text-align: center;
+}
+
+.doshas-heading{
+    background-color: #7bbdee;
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+}
+.doshas-heading h1{
+    font-weight: lighter;
+    padding: 10px;
+    
+}
+.doshas-content{
+    margin: 0% 10% 0% 10%;
+    text-align: left;
+}
+.doshas-content img{
+    width:80%;
+    max-height: 300px;
+    margin: 1%;
+}
+.prakriti3-main-contener{
+    background-color: #fff;
+}
+.prakriti3-heading{
+    background-color: rgb(194, 77, 91);
+    text-align: center;
+    padding: 10px;
+ & h1{
+    font-weight: lighter;
+    color: #fff;
+ }
+}
+.prakriti3-content{
+    background-color: #fff; 
+    
+    margin: 0% 10% 0% 10%;
+}
+.prakruti-images{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: space-between;
+
+}
+
+.prakriti3-content button{
+    padding: 10px 20px;
+    background-color: #7352b6 ;
+    color: white;
+    width: 70%;
+    font-size: 1.2rem;
+    border: 1px solid #7352b6 ;
+    border-radius: 10px;
+    
+}
+
+.th20qualities-contener{
+    background-color: #fff;
+    width: 100%;
+  
+    
+}
+
+.fullwwhite{
+    /* width: 100%; */
+    margin: 0% 10% 0% 10%;
+
+
+
+}
+
+.th20qualities-h{
+    background-color:rgb(47, 84, 97);
+    color: white;
+    padding: 10px;
+    text-align: center;
+   
+        /* font-size: 1rem; */
+    & heading {
+        font-size: 2rem;
+      
+    }
+
+}
+
+.image-div{
+    text-align: center;
+}
+
+.img-p{
+    display: flex;
+    font-size: 1rem;
+    & h1 {
+        font-weight:lighter ;
+    }
+    
+}
+.left-img-p{
+    width: 70%;
+}
+.right-img-p{
+    width: 25%;
+    height: auto;
+    & img{
+        width: 30vw;
+    }
+}
+
+.piller-heading{
+    text-align: center;
+    color: white;
+    background-color: rgb(78, 107, 78);
+    padding: 10px;
+    /* margin-bottom: -1%; */
+    & heading {   
+        font-size: 2rem;
+        /* font-weight: lighter; */
+    }
+   
+
+}
+
+.piller3-paraghraph{
+    background-color: #fff;
+    font-size: 1rem;
+    margin: 0% 10% 0% 10%;
+    
+}
+
+.ahar-piller-imagandp{
+    display: flex;
+    justify-content: space-between;
+    /* width: 90%; */
+    background-color: #fff;
+    margin: 0% 10% 0% 10%;
+    
+
+}
+
+.ahar-piller-left{
+    width: 30%;
+    & img{
+        width: 80% ;
+        border-radius: 100%;
+        border: 1px solid rgb(100, 146, 100);
+
+        padding: 10px;
+
+    }
+}
+
+.ahar-piller-right{
+    width: 60% ;
+    font-size: 1rem;
+    
+}
+.skincare-heading{
+    background-color: #b32a90;
+    text-align: center;
+    padding: 10px;
+ & heading{
+    font-weight: lighter;
+    color: #fff;
+    font-size: 2rem;
+ }
+}
+
+.skincare-p{
+    margin: 0% 10% 0% 10%;
+    font-size: 1rem;
+
+}
+.skincare-imgs{
+    width: 90%;
+    display: flex;
+    
+}
+
+.skincare-imgs-contener{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+   
+}
+
+.childs-skincare{
+    width: 20%;
+    
+    & img{
+        border-radius: 100%;
+        border: 1px solid rgb(100, 146, 100);
+        width: 80% ;
+        padding: 10px;
+        
+        
+    }
+    & p {
+        text-align: center;
+    }
+
+}
+.forbackground{
+    background-image: url(/12\ Floral\ Grey\ Seamless\ Pattern\ For\ Website\ Background.jpg);
+    
+}
+.benefits-wrapper{
+    margin: 0% 10% 0% 10%;
+}
+
+.benefits-contener{
+   padding: 1%;
+
+}
+.benifits{
+    background-color: rgba(128, 128, 128, 0.911);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    
+}
