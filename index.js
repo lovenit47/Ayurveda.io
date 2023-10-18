@@ -53,7 +53,23 @@
 // document.write(sum2);
 
 
-let type3 ="five" *  "5";
- console.log(typeof type3);
+// let type3 ="five" *  "5";
+//  console.log(typeof type3);
 
+// Ek esa function banao jisme koi number dalne per uska table mil jaye..banao
+
+// function multiple(num){
+//     for (i =1; i<=10; i++ ){
+//     document.write(`${num} x ${i} = ${num * i}`);
+//     document.write("<br>");
+//     }
+// }
  
+// multiple(2);
+
+// function addition (num1,num2) {
+//     document.write(num1+num2);
+// }
+
+// addition(2,3);
+
