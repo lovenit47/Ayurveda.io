@@ -73,3 +73,47 @@
 
 // addition(2,3);
 
+
+// The argument object in
+
+// function add(){
+//     console.log(arguments.length);
+// }
+
+// add(1,2,3,45,5,56);
+
+// function add (){
+//     if(arguments.length == 0){
+//         console.log("no parameter passed!");
+//     }else{
+//         let sum = 0;
+//         for(i= 0; arguments.length > i; i++ ){
+//             sum = sum + arguments[i];
+
+//         }
+//         console.log(sum);
+
+//     }
+// }
+
+// add(1,23);
+
+// write a function for squre
+
+function squre (){
+    if (arguments.length == 0){
+        console.log('no parameter passed!');
+
+    }else{
+        let sqr = 0;
+        for(){}
+       
+
+    }
+}
+
+squre(2);
+
+sqr = arguments[0] * arguments[0];
+console.log(typeof(sqr));
+console.log(sqr);
